@@ -5,46 +5,45 @@
 
 Firmas:
 
-private static bool SIoQ(bool szs){
-return = false;}
+private static bool SIoQ(bool szs){}
 
-public static int num1(int mero){mero 1};
+public static int num1(int mero){};
 
-protected static float numF(float mero2){return 2f};
+protected static float numF(float mero2){};
 
-public static bool alto(bool alt){return true};
+public static bool alto(bool alt){};
 
 private static bool bajo(bool altura){};
 
-private static string Frase(string frase){return "Hola Mundo";
+private static string Frase(string frase){}
 
-protected static char letraFavorita(char letra){};
+protected static char letraFavorita(char letra){}
 
-public static GameObject player = player.GetComponent<GameObject>;
+public static bool repetir(bool rep){}
 
-public static int numEstudiantes = 12;
+public static int numEstudiantes(int numEst){}
 
-protected static bool personajeActivo = false;
+protected static bool personajeActivo(bool active){}
 
-private static int ObtenerLongitud = 30
+private static int ObtenerLongitud(int long){}
 
-protected static string ConvertirMayusculas(string frase) = HOLA
+protected static string ConvertirMayusculas(string frase){}
 
-protected static void Sumar(int a, int b) = 8
+protected static void Sumar(int a, int b){}
 
-public static bool EsMayorEdad()= Es mayor
+public static bool EsMayorEdad(bool mayor){}
 
-public static void MostrarFecha() = 31/01/2025
+public static void MostrarFecha(){}
 
-private static string ObtenerSaludo() = hola
+private static string ObtenerSaludo(string saludo){}
 
-public static void ImprimirNumero(int num) = 40
+public static void ImprimirNumero(int num){}
 
-private static int Cuadrado(int num) = 16
+private static int Cuadrado(int num){}
 
-protected static bool estudianteActivo = true
+protected static bool estudianteActivo(bool active){}
 
-public static float Suma (a, b) = 14
+public static float Suma (a, b){}
 
 
 

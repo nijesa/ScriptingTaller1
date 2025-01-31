@@ -103,3 +103,75 @@ else
 //String (Cadena de char): Dada una matriz nxm de caracteres, elimine las vocales de la matriz y reemplacelas con una x,
 
 
+int[,] matriz = new int[3,3];
+
+for (int i = 0; i < matriz.GetLength(0); i++)//recorre las filas
+{
+    for (int j = 0; j < matriz.GetLength(1); j++) 
+    {
+        Console.WriteLine("ingrese el numero");
+        matriz [i, j] = Convert.ToInt32(Console.ReadLine());
+    }
+        }
+
+        static void CambiarSigno(int[,] matriz)
+{
+    int filas = matriz.GetLength(0);
+    int columnas = matriz.GetLenagth(1);
+
+    for (int i = 0; i < filas; i++)
+    {
+        for (int j = 0; j < columnas; j++)
+        {
+            if (matriz[i, j] < 0)
+            {
+                matriz[i, j] = (matriz[i, j]) * -1;
+            }
+        }
+    }
+}
+
+static void ImprimirMatriz(int[,] matriz)
+{
+    int filas = matriz.GetLength(0);
+    int columnas = matriz.GetLength(1);
+
+    for (int i = 0; i < filas; i++)
+    {
+        for (int j = 0; j < columnas; j++)
+        {
+            Console.Write(matriz[i, j] + "\t");
+        }
+        Console.WriteLine();
+    }
+}
+
+
+Console.WriteLine("Matriz original:");
+ImprimirMatriz(matriz); 
+
+CambiarSigno(matriz);
+
+Console.WriteLine("\nMatriz modificada:");
+ImprimirMatriz(matriz);
+
+
+//Usando un ciclo do-while calcule la suma de los primeros n números impares.
+
+
+ int n;
+    int suma = 0;
+    int contador = 0;
+    int numero = 1;
+
+    Console.WriteLine("Ingrese la cantidad de números impares a sumar: ");
+    n = Convert.ToInt32(Console.ReadLine());
+
+    do
+    {
+        suma += numero; 
+        numero += 2;    
+        contador++;     
+    } while (contador < n);
+
+    Console.WriteLine("La suma de los primeros "+n+ " números impares es: "+ suma);

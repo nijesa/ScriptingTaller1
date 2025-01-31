@@ -1,5 +1,7 @@
 # ScriptingTaller1
-literalmente el nombre
+- Nicolás Isaza
+- Argenida Yehizabeth Pedraza
+
 
 Firmas:
 
@@ -38,5 +40,7 @@ private static string ObtenerSaludo() = hola
 public static void ImprimirNumero(int num) = 40
 
 private static int Cuadrado(int num) = 16
+
+
 
 

@@ -5,19 +5,20 @@
 
 Firmas:
 
-private static bool SIoQ = false;
+private static bool SIoQ(bool szs){
+return = false;}
 
-public static int num1 = 1;
+public static int num1(int mero){mero 1};
 
-protected static float numF = 2f;
+protected static float numF(float mero2){return 2f};
 
-public static bool alto = true;
+public static bool alto(bool alt){return true};
 
-private static bool bajo = false;
+private static bool bajo(bool altura){};
 
-private static string Frase = "Hola Mundo";
+private static string Frase(string frase){return "Hola Mundo";
 
-protected static char letraFavorita = 'd';
+protected static char letraFavorita(char letra){};
 
 public static GameObject player = player.GetComponent<GameObject>;
 

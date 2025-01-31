@@ -42,6 +42,10 @@ public static void ImprimirNumero(int num) = 40
 
 private static int Cuadrado(int num) = 16
 
+protected static bool estudianteActivo = true
+
+public static float Suma (a, b) = 14
+
 
 
 

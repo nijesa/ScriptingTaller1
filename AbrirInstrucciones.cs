@@ -11,7 +11,7 @@ public class AbrirInstrucciones : MonoBehaviour
     {
         if(escena == null)
         {
-            Debug.Log("Variable escena vacía");
+            Debug.Log("Variable escena vacÃ­a");
         }
         else
         {

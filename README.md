@@ -47,4 +47,10 @@ public static float Suma (a, b){}
 
 
 
+FinalBoss
+1. Action: Do Nothing, Decision: Random
+2. Action: Patrol Between Bounds, Decision: Detect Target Radius
+3. Action: RunStart & Move Towards Target, Decision: Detect Target Radius
+4. Action: Crouch Start, Decision: Random
+5. Action: Crouch Stop, Decision: Random
 
